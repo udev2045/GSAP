@@ -20,5 +20,6 @@ tween.from('.box', {
     duration: 3,
     opacity: 0,
     stagger: .1,
-    scale: .2
+    scale: .2,
+    rotate: 360
 }, '-=2');
