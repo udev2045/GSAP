@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=MuseoModerno:ital,wght@1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #151517;
+    color: #f1f1f1;
+    line-height: 1.5;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+.section {
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+h1, h2, h3, h4 {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 900;
+}
+h1 {
+    font-size: 9vw;
+    line-height: 1;
+    margin-top: 0;
+}
+.contain {
+    margin: 0 10%;
+}
+.hero-text {
+    width: 80%;
+    float: left;
+}
+.cat {
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30px;
+}
+.cat.margin-bottom {
+    margin-bottom: 1rem;
+}
+.description {
+    letter-spacing: 1px;
+    width: 100%;
+    float: left;
+    margin-bottom: 1rem;
+}
+.description p {
+    flex: 1.2rem;
+}
+#bg {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#bg img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    max-height: 90vh;
+}
+.image-one {
+    width: 80%;
+    float: left;
+    margin-right: 50%;
+    margin-bottom: 50px;
+}
